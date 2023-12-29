@@ -15,6 +15,12 @@ body {
     border: 1px solid black;
 }
 
+/**
+
+General
+
+**/
+
 body {
     background-color: #f7f8fc;
     min-height: 100vh;
@@ -28,6 +34,12 @@ img {
     height: 48px;
     border-radius: 80px;
 }
+
+/**
+
+Side Navbar
+
+**/
 
 .side-nav i {
     margin-right: 1.25rem;
@@ -60,6 +72,12 @@ img {
 .side-header {
     padding: .5rem;
     padding-bottom: 2rem;
+}
+
+.side-nav li:hover {
+    background-color: #3e4049;
+    color: #9fcde1;
+    border-left: #9fcde1 solid 8px;
 }
 
 
