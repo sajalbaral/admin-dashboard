@@ -234,7 +234,25 @@ Trending
     gap: 20px 15px;
     grid-template-rows: max-content;
     padding: 30px;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 1fr;
+}
+
+.trending-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trending-user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-bottom: 5px;
+}
+
+.trending-header {
+    margin-bottom: 10px;
 }
 
 
