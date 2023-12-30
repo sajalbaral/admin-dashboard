@@ -169,6 +169,12 @@ Project Cards
     transition: all 0.4s;
 }
 
+.cards p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cards:hover {
     border: 2px solid var(--blueish);
     transition: 0.1s;
